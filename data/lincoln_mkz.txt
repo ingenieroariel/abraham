@@ -1,0 +1,26 @@
++acc speed
+ +button +
+ +current:083 00 00 00 00 00 00 00 00
+ +changes:083 00 00 00 20 00 00 00 00
+ +button -
+ +current:083 00 00 00 00 00 00 00 00
+ +changes:083 00 00 00 10 00 00 00 00
+  
+ +lock door:
+ +current:332 00 5A 00 00 00 00 00 00
+ +changes:332 10 5E 00 00 00 00 00 00 
+ +unlock door:
+ +current:332 00 5A 00 00 00 00 00 00
+ +changes:332 20 5E 00 00 00 00 00 00
+ +
+ +high bem light:
+ +current:083 00 00 00 00 00 00 00 00
+ +changes:083 40 00 00 00 00 00 00 00
+ +
+ +in width modulation light:
+ +current:3B3 40 88 06 12 10 00 00 02
+ +changes:3B3 44 88 C6 0C 10 00 00 02
+ +
+ +dashboard display open or close  door:
+ +current:3B3 44 88 C6 0C 10 00 00 02
+ +changes:3B3 45 88 C6 0C 10 00 00 02
