@@ -23,6 +23,7 @@ setup(
     author='',
     description='Can bus decoder for Lincoln MKZ',
     long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),
+    long_description_content_type='text/markdown',
     tests_require=['pytest>=3.0,<3.1', 'coveralls', 'flake8'],
     cmdclass={'test': PyTest},
     py_modules=['abraham'],
